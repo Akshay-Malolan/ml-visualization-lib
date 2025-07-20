@@ -7,7 +7,7 @@ from ipywidgets import interact
 from .cost_functions import compute_cost
 from .utils import inbounds, add_line
 
-plt.style.use('./deeplearning.mplstyle')
+plt.style.use('src/ml_visualization/deeplearning.mplstyle')
 n_bin = 5
 dlcm = LinearSegmentedColormap.from_list('dl_map', ['#1f77b4', '#ff7f0e', '#d62728', '#9467bd', '#8c564b'], N=n_bin)
 
