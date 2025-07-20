@@ -12,7 +12,6 @@ setup(
         'numpy',
         'matplotlib',
         'ipywidgets',
-        'os',
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
