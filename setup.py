@@ -7,6 +7,10 @@ setup(
     author_email='your.email@example.com',
     description='A library for visualizing machine learning data and cost functions.',
     packages=find_packages(where='src'),
+    include_package_data=True,
+    package_data={
+        'ml_visualization': ['deeplearning.mplstyle'],
+    },
     package_dir={'': 'src'},
     install_requires=[
         'numpy',
